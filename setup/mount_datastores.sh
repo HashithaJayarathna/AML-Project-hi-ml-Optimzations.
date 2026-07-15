@@ -3,7 +3,7 @@
 source setup/mount_utils.sh
 mount_base="/datasetdrive"
 
-# Fill in HIML workspace storage account here before using
+# Fill in HIML workspace storage account here before using storage account name
 STORAGE_ACCOUNT_NAME=""
 
 if [[ -z "$STORAGE_ACCOUNT_NAME" ]]; then
